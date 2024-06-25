@@ -4,7 +4,7 @@ import headerImg from "../assets/img/header-img.svg";
 import {useState, useEffect} from 'react';
 
 export const Banner = () => {
-    const toRotate = ['Software Engineer', 'Computer Science @ UWaterloo'];
+    const toRotate = ['Software Engineer', 'Computer Science student @ UWaterloo'];
     const [loopNum, setLoopNum] = useState(0);
     const[isDeleting, setIsDeleting] = useState(false);
     const[text, setText ] = useState('');
