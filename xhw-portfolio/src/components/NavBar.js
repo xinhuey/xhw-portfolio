@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/github.png';
 import navIcon3 from '../assets/img/nav-icon3.svg';
-import logo from '../assets/img/logo.svg';
+import logo from '../assets/img/name.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -39,7 +39,7 @@ export const NavBar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
     <Container>
         <Navbar.Brand href="/">
-            <img src={logo} alt = "Logo"/>
+            <img src={logo} className = "logo-img animate__animated animate__flash" alt = "Logo"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
