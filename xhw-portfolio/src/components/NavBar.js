@@ -4,6 +4,9 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/github.png';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import logo from '../assets/img/logo.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
@@ -51,6 +54,7 @@ export const NavBar = () => {
             </div>
             <button className = "vvd" onClick ={()=> console.log('Connect')}>
                 <span>Let's Connect</span>
+                <FontAwesomeIcon icon={faArrowRight} style={{ marginLeft: '8px' }} />
             </button>
           </span>
         </Navbar.Collapse>
