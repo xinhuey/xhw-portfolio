@@ -8,6 +8,8 @@ export const Experience = () => {
     <section className = "experience" id = "experiences">
         <Container>
             <div className = "accordion">
+                <h2>Experience</h2>
+                <p>This is my work experience<br></br></p>
                 <Accordion defaultActiveKey="0" >
 
                 <Accordion.Item eventKey="0" >
@@ -21,8 +23,8 @@ export const Experience = () => {
                       <span>Software Developer @ Imagine Communications</span>
                     </div>
                 </Accordion.Header>
-                <Accordion.Body style={{ padding: '20px' }}>
-                    <ul style={{ listStyleType: 'disc', paddingLeft: '20px', margin: '0', textAlign:'left' }}>
+                <Accordion.Body >
+                    <ul style={{ listStyleType: 'disc', paddingLeft: '20px', margin: '0'  }}>
                         <li>Ensured Versio Control application stability by testing containers in Docker environments and also updated Docker versions to maintain security and compatibility across multiple environments.</li>
                         <li>Developed an automated testing framework in Python and Selenium for Versio Control Application, resulting in a significant reduction of regression testing time by 50%.</li>                    
                         <li>Configured Amazon EC2 instances with the correct Amazon Machine Images (AMI) based on project requirements, ensuring that the instances were optimized for performance prior to deployment.</li>
@@ -41,13 +43,12 @@ export const Experience = () => {
                     </div>
                 </Accordion.Header>
                         <Accordion.Body>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum.
+                            <ul style={{ listStyleType: 'disc', margin: '0'  }}>
+                                <li>Designed and executed test cases, logged 5 critical defects before MicroTiles LED latest software release.</li>
+                                <li>Enhanced and debugged a testing tool, CAWS which automates web UI testing, thus achieving 95% code coverage (Python and Selenium).</li>                    
+                                <li>Developed a Python utility tool, facilitating the efficient file format conversion for EDID files (.bin to .txt).</li>
+                                <li>Pioneered a log monitoring tool in Python (PyQt5) that establishes live telnet sessions to monitor and displays the logs in a table, improving efficiency and accuracy in testing phases by 40%.</li>
+                            </ul>
                         </Accordion.Body>
                 </Accordion.Item>
                 </Accordion>

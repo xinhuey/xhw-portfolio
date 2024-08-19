@@ -362,13 +362,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon{
 
 .accordion{
   border-radius: 100px;
-  text-align: center;
+  text-align: left;
   padding: 60px 50px;
   margin-top: -60px;
 }
 
-li{
-  text-align:'left';
+.accordion h2{
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.accordion p{
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
+  text-align: center;
+}
+
+.accordion-body ul li{
   padding: 10px;
 }
 
