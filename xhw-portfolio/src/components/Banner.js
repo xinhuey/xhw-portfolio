@@ -7,7 +7,7 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Banner = () => {
-    const toRotate = ['Software Engineer', 'Computer Science student @ UWaterloo'];
+    const toRotate = ['Software Developer', 'Computer Science student @ UWaterloo', 'Foodie', 'Photographer'];
     const [loopNum, setLoopNum] = useState(0);
     const[isDeleting, setIsDeleting] = useState(false);
     const[text, setText ] = useState('');
@@ -54,7 +54,7 @@ export const Banner = () => {
                         <div className ={isVisible ? "animate__animated animate__fadeIn" : ""}>
                         <span className="tagline"> Welcome to my Portfolio!</span>
                         <h1>{`Hi, I'm Xin Huey Wong, a `}<span className="wrap">{text}</span></h1>
-                        <p>Bla</p>
+                        <p>Nice to Meet You!</p>
                         <button onClick={()=>console.log('Connect')}>Let's Connect!<ArrowRightCircle size = {25}/></button>
                     </div>}   
                     </TrackVisibility>
